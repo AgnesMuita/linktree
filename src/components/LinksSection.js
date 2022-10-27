@@ -4,14 +4,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Links() {
   return (
     <div className='link-section'>
-      <a href="https://training.zuri.team/" className="Links" type="button">
+      <a href="https://twitter.com/Aggie_Asf" className="" target="_blank" type="" id="twitter-link">
         <div className="frame5">
           <h1 className="links-text">
               Twitter Link
           </h1>
           </div>
       </a>
-      <a href='https://training.zuri.team/' type="button" id="btn_zuri">
+      <a href='https://training.zuri.team/' type="" target="_blank" id="btn_zuri">
         <div className="frame5">
           <h1 className="text-zuri">
             Zuri Team
@@ -19,16 +19,16 @@ function Links() {
           {/* <FontAwesomeIcon icon="fa-solid fa-share" /> */}
         </div>
       </a>
-      <a href='http://books.zuri.team' type="button" id="books">
+      <a href='http://books.zuri.team' type="button" target="_blank" id="books">
         <div className="frame5">
           <h1 className="text-books">
             Zuri Books
           </h1>
-          <p>Find books about Design and Coding</p>
+          {/* <p>Find books about Design and Coding</p> */}
           {/* <FontAwesomeIcon icon="fa-solid fa-share" /> */}
         </div>
       </a>
-      <a href='https://books.zuri.team/python-for-beginners?agnesmuita' type="button" id="book__python">
+      <a href='https://books.zuri.team/python-for-beginners?agnesmuita' type="button" target="_blank" id="book__python">
         <div className="frame5">
           <h1 className="text-books">
             Python Books
@@ -36,7 +36,7 @@ function Links() {
           {/* <FontAwesomeIcon icon="fa-solid fa-share" /> */}
         </div>
       </a>
-      <a href='https://background.zuri.team' type="button" id="pitch">
+      <a href='https://background.zuri.team' type="button"target="_blank" id="pitch">
         <div className="frame5">
           <h1 className="text-backgroundcheck">
             Background Check for Code
@@ -44,7 +44,7 @@ function Links() {
           {/* <FontAwesomeIcon icon="fa-solid fa-share" /> */}
         </div>
       </a>
-      <a href='https://books.zuri.team/design-rules' type="button" id="book_design">
+      <a href='https://books.zuri.team/design-rules' type="button" target="_blank" id="book_design">
         <div className="frame5">
           <h1 className="text-design">
             Design Books
