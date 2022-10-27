@@ -4,16 +4,16 @@ import Links from './components/links';
 
 function App() {
   return (
-    <section className="main-section">
-      <div className='content'>
-        <div className="profile-section">
-          <Profile/>
-        </div>
-        <div>
-          <Links/>
-        </div>
+  <div id='stage1web'>
+      <div className='stage1task'>
+        <section className="main-section">
+          <div className='content'>
+              <Profile/>
+              <Links/>
+          </div>
+        </section>
       </div>
-    </section>
+  </div>
   );
 }
 
