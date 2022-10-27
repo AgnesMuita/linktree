@@ -86,7 +86,7 @@ display: flex;
     width: 88px;
     height: 88px;
   
-    background: url(./static/blank-profile-picture-png.webp);
+    background: url(../src/static/profile-img.jpg);
     border-radius: 275px;
   
     /* Inside auto layout */
@@ -150,21 +150,21 @@ display: flex;
 /* Links */
 .link-section {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0px;
-  gap: 24px;
-
-  width: 1152px;
-  height: 576px;
-
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+  
+    width: 1152px;
+    height: 576px;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
 }
 .Links{
   display: flex;
@@ -219,34 +219,34 @@ display: flex;
 }
 .links-text{
   width: 101px;
-    height: 28px;
-  
-    /* Text lg/Medium */
-  
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 28px;
-    /* identical to box height, or 156% */
-  
-    display: flex;
-    align-items: center;
-    text-align: center;
-  
-    /* Gray/900 */
-  
-    color: #101828;
-  
-  
-    /* Inside auto layout */
-  
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+  height: 28px;
+
+  /* Text lg/Medium */
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* Gray/900 */
+
+  color: #101828;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-#btn_zuri{
+#btn_zuri, #twitter-links{
   display: flex;
     flex-direction: row;
     justify-content: center;

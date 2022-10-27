@@ -4,13 +4,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Links() {
   return (
     <div className='link-section'>
-      <div className="Links">
+      <a className="Links" type="button">
         <frame className="frame5">
           <text className="links-text">
               Twitter Link
           </text>
           </frame>
-      </div>
+      </a>
       <a href='https://training.zuri.team/' type="button" id="btn_zuri">
         <frame className="frame5">
           <text className="text-zuri">
