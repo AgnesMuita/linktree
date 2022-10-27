@@ -575,3 +575,110 @@ width: 24px;
     /* background: #36C5F0;
     transform: rotate(-90deg); */
 }
+/* Footer */
+.Footer{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 0px;
+    gap: 64px;
+  
+    position: absolute;
+    width: 1440px;
+    height: 160px;
+    left: 0px;
+    top: 998px;
+  
+    /* Base/White */
+  
+    background: #FFFFFF;
+}
+.footer-container{
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 32px;
+    gap: 32px;
+  
+    width: 1280px;
+    height: 64px;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.footer-content{
+  box-sizing: border-box;
+  
+    /* Auto layout */
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0px 0px;
+    gap: 32px;
+  
+    width: 1216px;
+    height: 64px;
+  
+    /* Gray/200 */
+  
+    border-top: 1px solid #EAECF0;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.zuri-internship-logo{
+  width: 187.59px;
+    height: 32px;
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.footer-text{
+  width: 832.28px;
+    height: 24px;
+  
+    /* Text md/Normal */
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+  
+    text-align: center;
+  
+    /* Gray/500 */
+  
+    color: #667085;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+.i4g-image{
+    width: 132.13px;
+    height: 32px;
+  
+    /* background: url(./static/i4g.png); */
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
