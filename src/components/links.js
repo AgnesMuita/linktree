@@ -7,7 +7,7 @@ function Links() {
       <div className="Links">
         <frame className="frame5">
           <text className="links-text">
-              Links
+              Twitter Link
           </text>
           </frame>
       </div>

@@ -1,31 +1,33 @@
-.main-section {
-  /* Auto layout */
+#stage1web{
+    position: relative;
+    width: 1440px;
+    height: 1158px;
   
-    display: flex;
+    background: #FFFFFF;
+}
+.stage1task{
+  display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 32px;
-    gap: 32px;
+    padding: 64px 112px;
+    gap: 24px;
   
-    width: 1216px;
-    height: 774px;
-  
-  
-    /* Inside auto layout */
-  
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
+    position: absolute;
+    width: 1440px;
+    height: 998px;
+    left: 0px;
+    top: 0px;
 }
-.content{
+.main-section {
+/* Auto layout */
+
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 0px;
-  gap: 56px;
+  align-items: center;
+  padding: 0px 32px;
+  gap: 32px;
 
-  width: 1152px;
+  width: 1216px;
   height: 774px;
 
 
@@ -35,6 +37,24 @@
   order: 0;
   align-self: stretch;
   flex-grow: 0;
+}
+.content{
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 56px;
+  
+    width: 1152px;
+    height: 774px;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
 }
 .profile-section{
 display: flex;
@@ -76,6 +96,56 @@ display: flex;
     flex-grow: 0;
     z-index: 0;
 }
+.twitter-frame{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      gap: 8px;
+    
+      width: 1152px;
+      height: 30px;
+    
+    
+      /* Inside auto layout */
+    
+      flex: none;
+      order: 1;
+      align-self: stretch;
+      flex-grow: 0;
+      z-index: 1;
+}
+#twitter{
+  width: 343px;
+    height: 28px;
+  
+    /* Text lg/Bold */
+  
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+  
+    text-align: center;
+  
+    /* Gray/900 */
+  
+    color: #101828;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+#slack{
+    display: none;
+}
+
 
 /* Links */
 .link-section {
