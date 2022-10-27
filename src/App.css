@@ -456,24 +456,24 @@ display: flex;
 /* social section */
 .social-section{
   display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 24px 0px;
-    gap: 64px;
-  
-    width: 1216px;
-    height: 72px;
-  
-    /* Base/White */
-  
-    background: #FFFFFF;
-  
-    /* Inside auto layout */
-  
-    flex: none;
-    order: 1;
-    align-self: stretch;
-    flex-grow: 0;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 0px;
+  gap: 64px;
+
+  width: 1216px;
+  height: 72px;
+
+  /* Base/White */
+
+  background: #FFFFFF;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
 }
 .container{
   display: flex;
@@ -493,33 +493,51 @@ display: flex;
     align-self: stretch;
     flex-grow: 0;
 }
+.social-content{
+display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  width: 1152px;
+  height: 24px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
 .social-icons{
-  display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 24px;
-  
-    width: 1152px;
-    height: 24px;
-  
-  
-    /* Inside auto layout */
-  
-    flex: none;
-    order: 0;
-    flex-grow: 1;
+display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  width: 1152px;
+  height: 24px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 1;
 }
 .slack-icon{
-  width: 24px;
-    height: 24px;
-  
-    /* Inside auto layout */
-  
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+width: 24px;
+  height: 24px;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 .slack-inner-icon{
     position: absolute;
@@ -546,4 +564,14 @@ display: flex;
     bottom: 2.31%;
   
     background: #000000;
+}
+.vector-icon{
+  position: absolute;
+    left: 9.38%;
+    right: 53.12%;
+    top: 46.88%;
+    bottom: 15.63%;
+  
+    /* background: #36C5F0;
+    transform: rotate(-90deg); */
 }
