@@ -4,12 +4,13 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function Links() {
   return (
     <div className='link-section'>
-      <a href="https://twitter.com/Aggie_Asf" className="" target="_blank" type="" id="twitter-link">
+      <a href='https://twitter.com/Aggie_Asf' type="" target="_blank" id="twitter-link">
         <div className="frame5">
-          <h1 className="links-text">
-              Twitter Link
+          <h1 className="text-twitter">
+            Twitter Link
           </h1>
-          </div>
+          {/* <FontAwesomeIcon icon="fa-solid fa-share" /> */}
+        </div>
       </a>
       <a href='https://training.zuri.team/' type="" target="_blank" id="btn_zuri">
         <div className="frame5">

@@ -13,7 +13,7 @@
     gap: 24px;
   
     position: absolute;
-    width: 1440px;
+    /* width: 1440px; */
     height: 998px;
     left: 0px;
     top: 0px;
@@ -65,7 +65,7 @@ display: flex;
   isolation: isolate;
 
   width: 1152px;
-  height: 142px;
+  height: 242px;
 
 
   /* Inside auto layout */
@@ -83,8 +83,8 @@ display: flex;
     align-items: center;
     padding: 0px;
   
-    width: 88px;
-    height: 88px;
+    width: 200px;
+    height: 200px;
   
     background: url(../src/static/profile-img.jpg);
     border-radius: 275px;
@@ -102,7 +102,7 @@ display: flex;
       justify-content: center;
       align-items: center;
       padding: 0px;
-      gap: 8px;
+      gap: 3px;
     
       width: 1152px;
       height: 30px;
@@ -125,7 +125,7 @@ display: flex;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 25px;
     line-height: 28px;
     /* identical to box height, or 156% */
   
@@ -246,7 +246,7 @@ display: flex;
   flex-grow: 0;
 }
 
-#btn_zuri, #twitter-links{
+#btn_zuri, #twitter-link{
   display: flex;
     flex-direction: row;
     justify-content: center;
@@ -345,6 +345,10 @@ display: flex;
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+a{
+  text-decoration: none;
+  color: inherit;
 }
 #book__python, #pitch, #book_design{
   display: flex;
