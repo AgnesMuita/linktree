@@ -1,8 +1,8 @@
+
 #stage1web{
     position: relative;
     width: 1440px;
     height: 1158px;
-  
     background: #FFFFFF;
 }
 .stage1task{
@@ -11,28 +11,19 @@
     align-items: center;
     padding: 64px 112px;
     gap: 24px;
-  
     position: absolute;
-    /* width: 1440px; */
     height: 998px;
     left: 0px;
     top: 0px;
 }
 .main-section {
-/* Auto layout */
-
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 0px 32px;
   gap: 32px;
-
   width: 1216px;
   height: 774px;
-
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   align-self: stretch;
@@ -46,11 +37,7 @@
     gap: 56px;
   
     width: 1152px;
-    height: 774px;
-  
-  
-    /* Inside auto layout */
-  
+    height: 774px; 
     flex: none;
     order: 0;
     align-self: stretch;
@@ -66,10 +53,6 @@ display: flex;
 
   width: 1152px;
   height: 242px;
-
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   align-self: stretch;
@@ -82,15 +65,10 @@ display: flex;
     justify-content: center;
     align-items: center;
     padding: 0px;
-  
     width: 200px;
     height: 200px;
-  
     background: url(../src/static/profile-img.jpg);
-    border-radius: 275px;
-  
-    /* Inside auto layout */
-  
+    border-radius: 275px;  
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -102,14 +80,9 @@ display: flex;
       justify-content: center;
       align-items: center;
       padding: 0px;
-      gap: 3px;
-    
+      gap: 3px;  
       width: 1152px;
       height: 30px;
-    
-    
-      /* Inside auto layout */
-    
       flex: none;
       order: 1;
       align-self: stretch;
@@ -118,26 +91,14 @@ display: flex;
 }
 #twitter{
   width: 343px;
-    height: 28px;
-  
-    /* Text lg/Bold */
-  
+    height: 28px;  
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
     line-height: 28px;
-    /* identical to box height, or 156% */
-  
     text-align: center;
-  
-    /* Gray/900 */
-  
-    color: #101828;
-  
-  
-    /* Inside auto layout */
-  
+    color: #101828; 
     flex: none;
     order: 0;
     flex-grow: 1;
@@ -145,8 +106,6 @@ display: flex;
 #slack{
     display: none;
 }
-
-
 /* Links */
 .link-section {
   display: flex;
@@ -154,13 +113,8 @@ display: flex;
     align-items: center;
     padding: 0px;
     gap: 24px;
-  
     width: 1152px;
-    height: 576px;
-  
-  
-    /* Inside auto layout */
-  
+    height: 576px;  
     flex: none;
     order: 1;
     align-self: stretch;
@@ -173,16 +127,9 @@ display: flex;
     align-items: center;
     padding: 0px;
     gap: 12px;
-  
     width: 1152px;
-    height: 76px;
-  
-    /* Shadow/xs */
-  
-    filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
-  
-    /* Inside auto layout */
-  
+    height: 76px;  
+    filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05)); 
     flex: none;
     order: 0;
     align-self: stretch;
@@ -190,29 +137,17 @@ display: flex;
 }
 .frame5{
   box-sizing: border-box;
-  
-    /* Auto layout */
-  
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 24px 32px;
     gap: 8px;
-  
     width: 1152px;
-    height: 76px;
-  
-    /* Gray/200 */
-  
-    background: #EAECF0;
-    /* Gray/200 */
-  
+    height: 76px;  
+    background: #EAECF0;  
     border: 1px solid #EAECF0;
     border-radius: 8px;
-  
-    /* Inside auto layout */
-  
     flex: none;
     order: 0;
     flex-grow: 1;
@@ -220,27 +155,15 @@ display: flex;
 .links-text{
   width: 101px;
   height: 28px;
-
-  /* Text lg/Medium */
-
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
-  /* identical to box height, or 156% */
-
   display: flex;
   align-items: center;
   text-align: center;
-
-  /* Gray/900 */
-
   color: #101828;
-
-
-  /* Inside auto layout */
-
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -256,13 +179,7 @@ display: flex;
   
     width: 1152px;
     height: 76px;
-  
-    /* Shadow/xs */
-  
     filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
-  
-    /* Inside auto layout */
-  
     flex: none;
     order: 1;
     align-self: stretch;
@@ -271,27 +188,15 @@ display: flex;
 .text_zuri{
   width: 86px;
     height: 28px;
-  
-    /* Text lg/Medium */
-  
-    font-family: 'Inter';
+   font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 28px;
-    /* identical to box height, or 156% */
-  
+    line-height: 28px; 
     display: flex;
     align-items: center;
-    text-align: center;
-  
-    /* Gray/900 */
-  
+    text-align: center; 
     color: #101828;
-  
-  
-    /* Inside auto layout */
-  
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -305,14 +210,8 @@ display: flex;
     gap: 12px;
   
     width: 1152px;
-    height: 76px;
-  
-    /* Shadow/xs */
-  
+    height: 76px;  
     filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
-  
-    /* Inside auto layout */
-  
     flex: none;
     order: 2;
     align-self: stretch;
@@ -320,28 +219,16 @@ display: flex;
 }
 .text_books{
   width: 92px;
-    height: 28px;
-  
-    /* Text lg/Medium */
-  
+    height: 28px;  
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
-    /* identical to box height, or 156% */
-  
     display: flex;
     align-items: center;
-    text-align: center;
-  
-    /* Gray/900 */
-  
+    text-align: center;  
     color: #101828;
-  
-  
-    /* Inside auto layout */
-  
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -519,8 +406,8 @@ display: flex;
 }
 .slack-inner-icon{
     position: absolute;
-    left: -12.38%;
-    right: 1.38%;
+    left: 42.38%;
+    /* right: 1.38%; */
     bottom: 10.38%;
 }
 .twitter-icon{
@@ -610,4 +497,24 @@ display: flex;
     flex: none;
     order: 2;
     flex-grow: 0;
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* For mobile phones: */
+ #stage1web{
+    display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 64px 0px 32px;
+      gap: 24px;
+    
+      position: absolute;
+      width: 375px;
+      height: 892px;
+      left: 0px;
+      top: 0px;
+  }
+  
+  
 }
