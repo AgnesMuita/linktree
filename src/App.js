@@ -1,6 +1,7 @@
 import './App.css';
-import Profile from './components/profile';
-import Links from './components/links';
+import Profile from './components/ProfileSection';
+import Links from './components/LinksSection';
+import SocialSection from './components/SocialSection';
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
         <section className="main-section">
           <div className='content'>
               <Profile/>
-              <Links/>
+              <Links/> 
+              <SocialSection/>
           </div>
         </section>
       </div>

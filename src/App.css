@@ -452,3 +452,98 @@ display: flex;
     order: 0;
     flex-grow: 0;
 }
+
+/* social section */
+.social-section{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0px;
+    gap: 64px;
+  
+    width: 1216px;
+    height: 72px;
+  
+    /* Base/White */
+  
+    background: #FFFFFF;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.container{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 32px;
+    gap: 32px;
+  
+    width: 1216px;
+    height: 24px;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.social-icons{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+  
+    width: 1152px;
+    height: 24px;
+  
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+.slack-icon{
+  width: 24px;
+    height: 24px;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.slack-inner-icon{
+    position: absolute;
+    left: 9.38%;
+    right: 9.38%;
+    top: 9.38%;
+    bottom: 9.38%;
+}
+.twitter-icon{
+    width: 24px;
+    height: 24px;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.twitter-inner-icon{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 2.31%;
+  
+    background: #000000;
+}
