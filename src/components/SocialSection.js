@@ -13,14 +13,12 @@ function SocialSection() {
           <div className='social-icons'>
             <div className='slack-icon'>
               <div className='slack-inner-icon'>
-                <image className="vector-icon"src="../static/twitter-icon.png"/>
+                 <FontAwesomeIcon icon={faCoffee} className="twitter-inner-icon" />              
               </div>
             </div>
-            {/* <div className='twitter-icon'>
-              <div className="twitter-inner-icon">
-                 <FontAwesomeIcon icon="fa-brands fa-twitter" />              
-              </div>
-            </div> */}
+            <div className='twitter-icon'>
+                 <FontAwesomeIcon icon={faCoffee} className="twitter-inner-icon" />              
+            </div>
           </div>
         </div>
       </div>
