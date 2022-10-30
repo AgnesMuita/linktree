@@ -15,6 +15,7 @@
   font-size: 18px;
   border-radius: 5px;
   width: 100%;
+  padding: .6rem 0 .6rem 0;
 }
 .links >a {
   font-weight: 600;
@@ -22,7 +23,7 @@
   text-decoration: none;
 }
 .links:hover {
-  background-color: #d6d6d6;
+  background-color: #D0D5DD;
 }
 @media  only screen and (max-width: 768px) {
 .link-section{
