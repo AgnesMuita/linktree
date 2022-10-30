@@ -33,7 +33,7 @@ function Links() {
         </a>
       </div>
       <div className='links'>
-        <a href='https://books.zuri.team/python-for-beginners?agnesmuita' type="button" target="_blank" id="book__python">
+        <a href='https://books.zuri.team/python-for-beginners?agnesmuita' type="button" target="_blank" id="book__python" title='Get to learn python from the best authors and at your own time'>
           <div className="frame5">
             <p className="text-books">
               Python Books
