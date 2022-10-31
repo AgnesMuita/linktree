@@ -6,7 +6,7 @@ function Links() {
   return (
     <div className='link-section'>
       <div className='links'>
-        <a href='https://twitter.com/Aggie_Asf' type="" target="_blank" id="twitter-link">
+        <a href='https://twitter.com/Aggie_Asf' type="button" target="_blank" id="twitter-link">
           <div className="frame5">
             <p className="text-twitter">
               Twitter Link
@@ -15,7 +15,7 @@ function Links() {
         </a>
       </div>
       <div className='links'>
-        <a href='https://training.zuri.team/' type="" target="_blank" id="btn_zuri">
+        <a href='https://training.zuri.team/' type="button" target="_blank" id="btn_zuri">
           <div className="frame5">
             <p className="text-zuri">
               Zuri Team
