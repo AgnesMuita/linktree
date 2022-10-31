@@ -7,7 +7,7 @@ function Profile() {
     <div className='profile-section'>
         <img className="profile-img" src={profile} alt="" id="profile_img"/>
         <h1 className="twitter-frame" id="twitter">Aggie Muita</h1>
-        <h1 className="slack-frame"><p id="slack">AggieMuita</p></h1>
+        <h1 className="slack-frame" id="slack">AggieMuita</h1>
     </div>
   )
 }
